@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Model Input</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ML Model Input</h1>
+        <form id="inputForm">
+            <label for="ph">pH:</label>
+            <input type="number" id="ph" name="ph" step="any" required>
+            
+            <label for="Hardness">Hardness:</label>
+            <input type="number" id="Hardness" name="Hardness" step="any" required>
+            
+            <label for="Solids">Solids:</label>
+            <input type="number" id="Solids" name="Solids" step="any" required>
+            
+            <label for="Chloramines">Chloramines:</label>
+            <input type="number" id="Chloramines" name="Chloramines" step="any" required>
+            
+            <label for="Sulfate">Sulfate:</label>
+            <input type="number" id="Sulfate" name="Sulfate" step="any" required>
+            
+            <label for="Conductivity">Conductivity:</label>
+            <input type="number" id="Conductivity" name="Conductivity" step="any" required>
+            
+            <label for="Organic_carbon">Organic Carbon:</label>
+            <input type="number" id="Organic_carbon" name="Organic_carbon" step="any" required>
+            
+            <label for="Trihalomethanes">Trihalomethanes:</label>
+            <input type="number" id="Trihalomethanes" name="Trihalomethanes" step="any" required>
+            
+            <label for="Turbidity">Turbidity:</label>
+            <input type="number" id="Turbidity" name="Turbidity" step="any" required>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="result">
+            <h2>Results:</h2>
+            <pre id="resultOutput"></pre>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
